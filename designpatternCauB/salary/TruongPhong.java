@@ -1,6 +1,7 @@
 package designpatternCauB.salary;
 
 public class TruongPhong extends SalaryDecorator {
+    // Dùng Decorator Pattern cho bài toán này
 
     public TruongPhong(Employee employee) {
         super(employee);

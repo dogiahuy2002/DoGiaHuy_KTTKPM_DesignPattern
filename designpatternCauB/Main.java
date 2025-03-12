@@ -4,6 +4,9 @@ import designpatternCauB.salary.*;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Dùng Decorator Pattern cho bài toán này
+
         // Nhân viên cơ bản với lương 10,000
         Employee nv1 = new Base(10000);
         System.out.println(nv1.getDescription() + ": Lương = " + nv1.getSalary());

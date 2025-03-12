@@ -2,6 +2,7 @@ package designpatternCauB.salary;
 
 //decorator chung cho các loại phụ cấp
 public class SalaryDecorator implements Employee {
+    // Dùng Decorator Pattern cho bài toán này
 
     protected Employee employee;
 
